@@ -1,0 +1,160 @@
+2026-07-20 17:03:29,166 [INFO] HTTP Request: GET http://ip-api.com/json/8.8.8.8 "HTTP/1.1 200 OK"
+2026-07-20 17:03:29,166 [INFO] [IP] 수집 성공
+2026-07-20 17:03:29,934 [INFO] HTTP Request: GET https://countries.dev/alpha/KOR "HTTP/1.1 200 OK"
+2026-07-20 17:03:29,935 [INFO] [Country] 수집 성공
+2026-07-20 17:03:30,098 [INFO] HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul "HTTP/1.1 200 OK"
+2026-07-20 17:03:30,099 [INFO] [Weather] 수집 성공
+2026-07-20 17:03:30,099 [INFO] --- 데이터 스키마 검증 시작 ---
+2026-07-20 17:03:30,100 [INFO] [검증 성공 - Country] Korea (Republic of) 위치: (37.0, 127.5)
+2026-07-20 17:03:30,100 [INFO] [검증 성공 - IP] 8.8.8.8 -> United States
+2026-07-20 17:03:32,178 [INFO] 데이터 저장 완료 (CSV, Parquet)
+2026-07-20 17:05:57,639 [INFO] HTTP Request: GET http://ip-api.com/json/8.8.8.8 "HTTP/1.1 200 OK"
+2026-07-20 17:05:57,642 [INFO] [IP] 수집 성공
+2026-07-20 17:05:58,375 [INFO] HTTP Request: GET https://countries.dev/alpha/KOR "HTTP/1.1 200 OK"
+2026-07-20 17:05:58,376 [INFO] [Country] 수집 성공
+2026-07-20 17:05:58,526 [INFO] HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul "HTTP/1.1 200 OK"
+2026-07-20 17:05:58,527 [INFO] [Weather] 수집 성공
+2026-07-20 17:05:58,528 [INFO] --- 데이터 스키마 검증 시작 ---
+2026-07-20 17:05:58,533 [INFO] [검증 성공 - Country] Korea (Republic of) 위치: (37.0, 127.5)
+2026-07-20 17:05:58,534 [INFO] [검증 성공 - IP] 8.8.8.8 -> United States
+2026-07-20 17:05:59,951 [INFO] 데이터 저장 완료 (CSV, Parquet)
+2026-07-20 17:15:50,319 [INFO] HTTP Request: GET http://ip-api.com/json/8.8.8.8 "HTTP/1.1 200 OK"
+2026-07-20 17:15:50,323 [INFO] [IP] 수집 성공
+2026-07-20 17:15:50,518 [INFO] HTTP Request: GET https://countries.dev/alpha/KOR "HTTP/1.1 200 OK"
+2026-07-20 17:15:50,519 [INFO] [Country] 수집 성공
+2026-07-20 17:15:51,313 [INFO] HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul "HTTP/1.1 200 OK"
+2026-07-20 17:15:51,315 [INFO] [Weather] 수집 성공
+2026-07-20 17:15:51,316 [INFO] --- 데이터 스키마 검증 시작 ---
+2026-07-20 17:15:51,320 [INFO] [검증 성공 - Country] Korea (Republic of) 위치: (37.0, 127.5)
+2026-07-20 17:15:51,320 [INFO] [검증 성공 - IP] 8.8.8.8 -> United States
+2026-07-20 17:15:51,412 [INFO] 데이터 저장 완료 (CSV, Parquet)
+2026-07-20 17:17:19,453 [INFO] HTTP Request: GET http://ip-api.com/json/8.8.8.8 "HTTP/1.1 200 OK"
+2026-07-20 17:17:19,456 [INFO] [IP] 수집 성공
+2026-07-20 17:17:19,642 [INFO] HTTP Request: GET https://countries.dev/alpha/KOR "HTTP/1.1 200 OK"
+2026-07-20 17:17:19,643 [INFO] [Country] 수집 성공
+2026-07-20 17:17:20,399 [INFO] HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul "HTTP/1.1 200 OK"
+2026-07-20 17:17:20,401 [INFO] [Weather] 수집 성공
+2026-07-20 17:17:20,402 [INFO] --- 데이터 스키마 검증 시작 ---
+2026-07-20 17:17:20,402 [INFO] [검증 성공 - Weather]
+2026-07-20 17:18:33,923 [INFO] HTTP Request: GET http://ip-api.com/json/8.8.8.8 "HTTP/1.1 200 OK"
+2026-07-20 17:18:33,924 [INFO] [IP] 수집 성공
+2026-07-20 17:18:34,884 [INFO] HTTP Request: GET https://countries.dev/alpha/KOR "HTTP/1.1 200 OK"
+2026-07-20 17:18:34,885 [INFO] [Country] 수집 성공
+2026-07-20 17:18:35,154 [INFO] HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul "HTTP/1.1 200 OK"
+2026-07-20 17:18:35,155 [INFO] [Weather] 수집 성공
+2026-07-20 17:18:35,156 [INFO] --- 데이터 스키마 검증 시작 ---
+2026-07-20 17:18:35,156 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:41,950 [INFO] HTTP Request: GET http://ip-api.com/json/8.8.8.8 "HTTP/1.1 200 OK"
+2026-07-20 17:19:41,954 [INFO] [IP] 수집 성공
+2026-07-20 17:19:42,129 [INFO] HTTP Request: GET https://countries.dev/alpha/KOR "HTTP/1.1 200 OK"
+2026-07-20 17:19:42,130 [INFO] [Country] 수집 성공
+2026-07-20 17:19:42,853 [INFO] HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul "HTTP/1.1 200 OK"
+2026-07-20 17:19:42,854 [INFO] [Weather] 수집 성공
+2026-07-20 17:19:42,855 [INFO] --- 데이터 스키마 검증 시작 ---
+2026-07-20 17:19:42,860 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,861 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,862 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Weather]
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - Country] Korea (Republic of) 위치: (37.0, 127.5)
+2026-07-20 17:19:42,863 [INFO] [검증 성공 - IP] 8.8.8.8 -> United States
+2026-07-20 17:19:42,944 [INFO] 데이터 저장 완료 (CSV, Parquet)
+2026-07-20 17:28:00,589 [INFO] HTTP Request: GET http://ip-api.com/json/8.8.8.8 "HTTP/1.1 200 OK"
+2026-07-20 17:28:00,593 [INFO] [IP] 수집 성공
+2026-07-20 17:28:01,200 [INFO] HTTP Request: GET https://countries.dev/alpha/KOR "HTTP/1.1 200 OK"
+2026-07-20 17:28:01,201 [INFO] [Country] 수집 성공
+2026-07-20 17:28:01,481 [INFO] HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul "HTTP/1.1 200 OK"
+2026-07-20 17:28:01,482 [INFO] [Weather] 수집 성공
+2026-07-20 17:28:01,483 [INFO] --- 데이터 스키마 검증 시작 ---
+2026-07-20 17:28:01,483 [INFO] [검증 완료 - Weather] 총 72건 정상 검증
+2026-07-20 17:28:01,483 [INFO] [검증 성공 - Country] Korea (Republic of) 위치: (37.0, 127.5)
+2026-07-20 17:28:01,483 [INFO] [검증 성공 - IP] 8.8.8.8 -> United States
+2026-07-20 17:28:01,555 [INFO] ✅ 데이터 성능 측정 및 저장 완료 (CSV, Parquet)
+2026-07-20 17:50:00,385 [INFO] HTTP Request: GET http://ip-api.com/json/8.8.8.8 "HTTP/1.1 200 OK"
+2026-07-20 17:50:00,388 [INFO] [IP] 수집 성공
+2026-07-20 17:50:01,119 [INFO] HTTP Request: GET https://countries.dev/alpha/KOR "HTTP/1.1 200 OK"
+2026-07-20 17:50:01,120 [INFO] [Country] 수집 성공
+2026-07-20 17:50:01,286 [INFO] HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul "HTTP/1.1 503 Service Unavailable"
+2026-07-20 17:50:01,287 [ERROR] [Weather] 서버 응답 에러 (상태코드: 503): https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul
+2026-07-20 17:50:01,288 [INFO] --- 데이터 스키마 검증 시작 ---
+2026-07-20 17:50:01,288 [INFO] [검증 성공 - Country] Korea (Republic of) 위치: (37.0, 127.5)
+2026-07-20 17:50:01,288 [INFO] [검증 성공 - IP] 8.8.8.8 -> United States
+2026-07-20 17:50:01,292 [WARNING] 검증을 통과한 날씨 데이터가 없어 성능 테스트와 저장을 건너뜁니다.
+2026-07-20 17:50:18,398 [INFO] HTTP Request: GET http://ip-api.com/json/8.8.8.8 "HTTP/1.1 200 OK"
+2026-07-20 17:50:18,399 [INFO] [IP] 수집 성공
+2026-07-20 17:50:18,614 [INFO] HTTP Request: GET https://countries.dev/alpha/KOR "HTTP/1.1 200 OK"
+2026-07-20 17:50:18,616 [INFO] [Country] 수집 성공
+2026-07-20 17:50:19,293 [INFO] HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul "HTTP/1.1 200 OK"
+2026-07-20 17:50:19,294 [INFO] [Weather] 수집 성공
+2026-07-20 17:50:19,295 [INFO] --- 데이터 스키마 검증 시작 ---
+2026-07-20 17:50:19,295 [INFO] [검증 완료 - Weather] 총 72건 정상 검증
+2026-07-20 17:50:19,295 [INFO] [검증 성공 - Country] Korea (Republic of) 위치: (37.0, 127.5)
+2026-07-20 17:50:19,295 [INFO] [검증 성공 - IP] 8.8.8.8 -> United States
+2026-07-20 17:50:19,376 [INFO] ✅ 데이터 성능 측정 및 저장 완료 (CSV, Parquet)
