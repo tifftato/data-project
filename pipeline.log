@@ -158,3 +158,14 @@
 2026-07-20 17:50:19,295 [INFO] [검증 성공 - Country] Korea (Republic of) 위치: (37.0, 127.5)
 2026-07-20 17:50:19,295 [INFO] [검증 성공 - IP] 8.8.8.8 -> United States
 2026-07-20 17:50:19,376 [INFO] ✅ 데이터 성능 측정 및 저장 완료 (CSV, Parquet)
+2026-07-20 18:04:55,352 [INFO] HTTP Request: GET http://ip-api.com/json/8.8.8.8 "HTTP/1.1 200 OK"
+2026-07-20 18:04:55,355 [INFO] [IP] 수집 성공
+2026-07-20 18:04:55,568 [INFO] HTTP Request: GET https://countries.dev/alpha/KOR "HTTP/1.1 200 OK"
+2026-07-20 18:04:55,569 [INFO] [Country] 수집 성공
+2026-07-20 18:04:56,247 [INFO] HTTP Request: GET https://api.open-meteo.com/v1/forecast?latitude=37.5665&longitude=126.9780&hourly=temperature_2m,precipitation_probability&forecast_days=3&timezone=Asia/Seoul "HTTP/1.1 200 OK"
+2026-07-20 18:04:56,249 [INFO] [Weather] 수집 성공
+2026-07-20 18:04:56,250 [INFO] --- 데이터 스키마 검증 시작 ---
+2026-07-20 18:04:56,251 [INFO] [검증 완료 - Weather] 총 72건 정상 검증
+2026-07-20 18:04:56,251 [INFO] [검증 성공 - Country] Korea (Republic of) 위치: (37.0, 127.5)
+2026-07-20 18:04:56,251 [INFO] [검증 성공 - IP] 8.8.8.8 -> United States
+2026-07-20 18:04:56,331 [INFO] ✅ 데이터 성능 측정 및 저장 완료 (CSV, Parquet)

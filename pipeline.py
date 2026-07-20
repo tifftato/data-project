@@ -1,14 +1,9 @@
 # ---------------------------------------
 # 작성자: 김서현 (광주 2반, G040)
 # 작성목적: [종합 실습1] 데이터 수집 미니 파이프라인
-# 작성자: 2026-07-20
-
-# 활용 파일: Python_Practice1_Data.json
+# 작성일: 2026-07-20
 
 # 본 파일은 SKALA 교육을 위한 과제 코드이므로 작성자에게 모든 저작권이 있습니다.
-#
-# 변경사항 내역 (날짜, 변경목적, 변경내용 순으로 기입)
-#
 # ----------------------------------------
 import asyncio
 import time
@@ -33,7 +28,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ==========================================
-# 2. Pydantic 스키마 정의 (기존과 동일)
+# 2. Pydantic 스키마 정의
 # ==========================================
 class WeatherRecord(BaseModel):
     time: str = Field(...)
@@ -86,7 +81,7 @@ async def fetch_api(client: httpx.AsyncClient, url: str, api_name: str) -> dict:
         
     # 예외 3: 그 외 전혀 예상치 못한 에러 (이때는 Traceback을 남깁니다)
     except Exception:
-        # exc_info=True를 주면 에러가 발생한 코드의 위치까지 상세히 로그에 남습니다.
+        # exc_info=True를 주면 에러가 발생한 코드의 위치까지 상세히 로그에 남음
         logger.error(f"[{api_name}] 알 수 없는 치명적 오류 발생", exc_info=True)
         return {}
 
@@ -188,7 +183,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    print("✅ 프로그램 진입 성공!") # <--- 이 줄을 추가해 보세요!
+    print("✅ 프로그램 진입 성공!")
     import sys
     if sys.platform == 'win32':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
